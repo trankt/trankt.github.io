@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+
+		<!-- Your UI controls go here -->
+		<fieldset>
+			<label for="Text">Text:</label>
+			<textarea id="Text" name="Text" rows="4" cols="30">
+Hello this is a test. This is a second sentence.
+			</textarea>
+		</fieldset>
+		<fieldset>
+			<label for="Fancify"></label>
+			<button type="button" onclick="myf()">Bigger!</button><br>
+			<input type="radio" onchange="fancy()">
+			<label for="fancyShmancy">FancyShmancy</label><br>
+			<input type="radio" onchange="boring()">
+			<label for="boringBetty">BoringBetty</label><br>
+			<button type="button" onclick="addMoo()">Moo</button><br>
+		</fieldset>
+	</body>
+</html>
